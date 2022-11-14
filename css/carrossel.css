@@ -1,0 +1,8 @@
+.carrossel {
+    margin-top: 55px;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 75vh;
+  }
