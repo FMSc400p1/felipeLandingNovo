@@ -31,4 +31,10 @@
     .unicoBloco{
         width: 75%;
     }
+    .swiper-slide img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
