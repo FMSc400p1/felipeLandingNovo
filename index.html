@@ -30,7 +30,7 @@
       height: 350px;
       object-fit: cover;
       border-radius: 10px;
-      margin: 0 0 30px 40px;
+      margin: 0 0 20px 30px;
     }
 
     .produtos {
@@ -63,6 +63,10 @@
       text-align: justify;
       padding: 30px;
     }
+    
+    .textin a{
+      text-decoration: none;
+    }
 
     .pEstilo {
       font-style: italic;
@@ -87,10 +91,11 @@
     .abaComentario {
       display: flex;
       justify-content: space-between;
+      margin-top: 20px;
     }
 
     .fotoUser {
-      width: 150px;
+      /* width: 150px; */
       height: 150px;
       /* border-radius: 100%; */
       background-color: grey;
@@ -104,11 +109,7 @@
     }
 
     .estrelas {
-      margin-top: 30px;
-      height: 50px;
-      width: 50px;
-      margin-left: -80px;
-      /* background-color: red; */
+      width: 100%;
     }
 
     .fontestrelas{
@@ -116,10 +117,10 @@
     }
 
     .fotoUser img{
-      margin-top: 60px;
+      /* margin-top: 60px; */
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: fill;
       display: flex;
       flex-direction: column;
     }
@@ -145,8 +146,14 @@
       padding: 10px 10px 0 10px ; 
     }
 
+    .blocoComent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .blocoComentario {
-      padding: 20px;
+      /* padding: 20px; */
       height: 250px;
       width: 80%;
       background-image: linear-gradient(180deg,
@@ -168,14 +175,13 @@
     }
 
     .lojas-foto{
-      margin-left: 50px;
+      /* margin-left: 50px; */
       margin-top: 60px;
       width: 350px;
       height: 350px;
       object-fit: cover;
       display: flex;
       flex-direction: column;
-      margin-left: 50px;
       border-radius: 12px;
     }
 
@@ -297,6 +303,8 @@
           <h2>Lojas Americanas</h2>
           <p> Todo mundo vai!
             <br>
+            Telefone: (92) 98454-2272
+            <br>
             Acesse pelo Maps: <a
               href="https://www.google.com/maps/search/lojas+americanas/@-3.0517989,-60.0089162,12.46z">
               Clique aqui</a>
@@ -306,8 +314,9 @@
       <div class="div-lojas">
         <img src="./img/vivo.jpg" alt="" class="lojas-foto">
         <div class="textin">
+          <h2>Loja Vivo</h2>
           <p>
-          <h2>Loja Vivo</h2> O clássico das operadora
+             O clássico das operadora
           <br>
           Telefone: (92) 98405-8959
           <br>
@@ -320,8 +329,11 @@
       <div class="div-lojas">
         <img src="./img/infostore.jpg" alt="" class="lojas-foto">
         <div class="textin">
+          <h2>Info Store</h2>
           <p>
-          <h2>Info Store</h2> A melhor loja não mais cara de Manaus também vende fone
+           A loja mais cara de Manaus
+          <br>
+          Telefone: (92) 98406-6089
           <br>
           Acesse pelo Maps: <a
             href="https://www.google.com/maps/search/Info+Store/@-3.0561544,-60.0163009,12.25z">Clique
@@ -357,9 +369,8 @@
             <h2 class="estrelas">⭐⭐✰✰✰</h2>
           </div>
           
-          <div class="zonaComentario">
-            Achei que as lojas eram todas aqui no Brasil, me deu vários problemas com o pessoal da entrega, 
-            fiquei quase achando que era golpe, não paravam de me dizer que o pedido está a caminho...muito irresponsável. 
+          <div class="zonaComentario"> 
+            Fiquei quase achando que era golpe, não paravam de me dizer que o pedido está a caminho...muito irresponsável. 
             Mas fiquei esperançosa sobre a qualidade do fone que acabei de comprar pra minhas duas filhas e meu marido.
             Mas logo vieram sem carga e com partes arranhadas, fala sério, mas tirando isso, eles funcionam.
             Se não fosse bluetoof, era melhor ter comprado no shopping aqui perto de casa! Decepcionada!!!
@@ -386,18 +397,11 @@
   <footer class="footer">
 
     <div class="primeiroBloco">
-      <a href="#home"><p>Inicio</p></a>
-      <a href="#prod"><p>Produtos</p></a>
-      <a href="#aval"><p>Avaliações</p></a>
+      <p><a href="#home">Inicio</a></p>
+      <p><a href="#prod">Produtos</a></p>
+      <p><a href="#aval">Avaliações</a></p>
+      <p class="footer-msg">Landing site desenvolvido por: <i>@FMSC4</i></p>
     </div>
-    <div class="unicoBloco">
-      <div class="primeiraLinha">
-        <strong><p class="footer-msg">Landing site desenvolvido por: <i>@FMSC4</i></p></strong>
-      </div>
-     
-    </div>
-
-
 
   </footer>
 
@@ -423,6 +427,7 @@
       },
     });
   </script>
+  
 </body>
 
 </html>
