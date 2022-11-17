@@ -1,0 +1,23 @@
+.footer{
+    color: #1463f3;
+    height:35vh;
+    background-image: linear-gradient(180deg, white, rgb(244, 244, 255), white);
+}
+
+
+.footer-msg{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primeiroBloco{
+    height: 150px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+.primeiroBloco a {
+    text-decoration: none;
+}
